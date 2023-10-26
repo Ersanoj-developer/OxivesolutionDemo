@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Oxive Solutions</title>
+
+    <!-- top icon  -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0"
+    />
+
+    <!-- general stylesheet -->
+    <link rel="stylesheet" href="./style.css" />
+    
+
+
+  </head>
+
+  <body>
+    <section class="main_section">
+      <!-- sidebar section -->
+      <div class="sidebar" id="sidebar">
+        <button class="close_navbar_btn" id="close_navbar_btn">
+          <span class="material-symbols-rounded"> close </span>
+        </button>
+
+        <a href="#" class="logo">
+          <span class="icon material-symbols-rounded"> <img src="./images/logo.jpg" width="70" /> </span>
+          <span class="link_text">oxive Solutions</span>
+        </a>
+
+        <div class="sidebar_links">
+          <!-- data comes from js contants file -->
+          <script src="./constants/SidebarLinks.js"></script>
+        </div>
+
+        <div class="sidebar_bar">settings</div>
+        <div class="sidebar_links">
+          <!-- data comes from js contants file -->
+          <script src="./constants/SettingLinks.js"></script>
+        </div>
+
+        <div class="help_card">
+          <span class="question_mark">?</span>
+          <div class="card">
+            <h3 class="card_heading">Help Center</h3>
+            <p class="card_desc">
+              Having trouble <br />Please contact us for more
+              questions.
+            </p>
+            <a href="#">Go To Help Center</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- content section -->
+      <main class="content">
+        <div class="topbar">
+          <div class="leftside_titles">
+            <h2 class="heading_1">Welcome to Oxive Solutions</h2>
+            <h5 class="heading_2">Hello Sanoj Saju, welcome back!</h5>
+          </div>
+
+          <div class="rightside_content">
+            <div class="searchbar">
+              <span class="material-symbols-rounded"> search </span>
+
+              <input
+                type="search"
+                name="search"
+                id=""
+                placeholder="Search Listed Items"
+              />
+
+              <span class="tune_icon material-symbols-rounded"> tune </span>
+            </div>
+
+            <div class="button_set">
+              <a href="#" class="button">
+                <span class="material-symbols-rounded"> chat </span>
+              </a>
+
+              <a href="#" class="button notification">
+                <span class="material-symbols-rounded">
+                  notifications_active
+                </span>
+              </a>
+
+              <a href="#" class="profile">
+                <img src="./images/profile_pics/sanoj1.jpg" width="16" />
+              </a>
+
+              <button class="menu_btn">
+                <span class="material-symbols-rounded"> menu </span>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <section class="main_layout">
+          <main>
+            <div class="poster">
+              <h1 class="heading">Welcome to Carmel Farm's ERP Hub</h1>
+              <h4 class="para">
+                The world's first  Carmel Farm's ERP Hub
+              </h4>
+
+              <div class="button_set">
+                <button>explore more</button>
+                <button>top Carmel</button>
+              </div>
+            </div>
+
+            <div class="items_container">
+              <div class="heading_n_link">
+                <h1 class="title">Breeds</h1>
+                <a href="#" class="view_all"
+                  >View All
+                  <span class="material-symbols-rounded">
+                    arrow_right_alt
+                  </span>
+                </a>
+              </div>
+
+              <div class="items">
+                <div class="item">
+                  <img src="./images/c1.jpg" alt="" />
+                  <h3 class="item_text">Bikaneri</h3>
+                </div>
+
+                <div class="item">
+                  <img src="./images/c2.png" alt="" />
+                  <h3 class="item_text">Jaisalmeri</h3>
+                </div>
+
+                <div class="item">
+                  <img src="./images/c3.jpg" alt="" />
+                  <h3 class="item_text">Kutchi</h3>
+                </div>
+              </div>
+            </div>
+
+            <div class="seller_info">
+              <div class="top_seller">
+                <div class="top">
+                  <h4 class="heading">Top Client</h4>
+                  <a href="#" class="view_all">
+                    View All
+                    <span class="material-symbols-rounded">
+                      arrow_forward
+                    </span>
+                  </a>
+                </div>
+
+                <div class="bottom">
+                  <div class="top_profiles">
+                    
+                    <img
+                      src="./images/profile_pics/1.jpg"
+                      alt=""
+                      width="95"
+                    />
+                  </div>
+
+                  <hr class="middle_line" />
+
+                  <div class="record">
+                    <div class="no_of_sold">1,542 Buyed</div>
+                    <div class="seller_metadata">
+                      <span>10 dealer</span>
+                      <span>2 days</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="top_seller">
+                <div class="top">
+                  <h4 class="heading">Featured Client</h4>
+                  <a href="#" class="view_all">
+                    View All
+                    <span class="material-symbols-rounded">
+                      arrow_forward
+                    </span>
+                  </a>
+                </div>
+
+                <div class="bottom">
+                  <div class="top_profiles">
+                    <img
+                      src="./images/profile_pics/2.jpg"
+                      alt=""
+                      width="95"
+                    />
+                  </div>
+
+                  <hr class="middle_line" />
+                  <div class="record">
+                    <div class="no_of_sold">2,156 buyed</div>
+                    <div class="seller_metadata">
+                      <span>1 deallers</span>
+                      <span>71 days</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </main>
+
+          <aside>
+            <div class="states_info_card">
+              <div class="card_info">
+                <div class="states">
+                  <h1 class="info_title">My Farm</h1>
+                  <div class="states_info">
+                    <div class="orders">
+                      <p>Today</p>
+                      <h3>117 Breeds</h3>
+                    </div>
+
+                    <div class="orders">
+                      <p>Food Orders</p>
+                      <h3>1731 Kg</h3>
+                    </div>
+                  </div>
+                </div>
+
+                <a href="#" class="goto_orders">
+                  More details
+                  <span class="material-symbols-rounded"> arrow_forward </span>
+                </a>
+              </div>
+              <img src="./images/c2.png" alt="" class="card_img" />
+            </div>
+
+            <div class="recent_acivity_bar">
+              <div class="top">
+                <h4 class="heading">Recent Activity</h4>
+                <a href="#" class="view_all">
+                  View All
+                  <span class="material-symbols-rounded"> arrow_forward </span>
+                </a>
+              </div>
+
+              <div class="activity_list">
+                <!-- data comes from constants data file -->
+                <script src="./constants/RecentActivityList.js"></script>
+              </div>
+            </div>
+          </aside>
+        </section>
+      </main>
+    </section>
+
+    <!-- general script -->
+    <script src="./main.js"></script>
+  </body>
+</html>
